@@ -1,0 +1,6 @@
+Progress update - Week 5
+
+The frontend team finished the event listing design this week.
+The login module is still behind schedule. Anita has exams until 24 October.
+We are blocked on the payment gateway because the college has not approved the vendor.
+There is a risk that the admin dashboard will slip past the November deadline.
