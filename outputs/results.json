@@ -1,0 +1,196 @@
+{
+  "scope": {
+    "goals": [
+      "Build a web app where students can register for campus events."
+    ],
+    "deliverables": [
+      "login module",
+      "event listing",
+      "registration",
+      "admin dashboard"
+    ],
+    "milestones": [
+      {
+        "name": "First working version",
+        "date": "30 November 2026",
+        "evidence": "The first working version is due on 30 November 2026.",
+        "source_file": "sample_proposal.pdf"
+      }
+    ],
+    "timeline": {
+      "start": "Not mentioned",
+      "end": "30 November 2026"
+    },
+    "responsibilities": [
+      {
+        "person": "Anita",
+        "task": "Login module",
+        "evidence": "Task: Login module | Owner: Anita | Due Date: 2026-10-25 | Status: In Progress | Notes: Delayed due to exams",
+        "source_file": "sample_tasks.csv"
+      },
+      {
+        "person": "Ravi",
+        "task": "Event listing page",
+        "evidence": "Task: Event listing page | Owner: Ravi | Due Date: 2026-10-30 | Status: Not Started",
+        "source_file": "sample_tasks.csv"
+      },
+      {
+        "person": "Ravi",
+        "task": "Payment gateway integration",
+        "evidence": "Task: Payment gateway integration | Owner: Ravi | Due Date: 2026-11-05 | Status: Blocked | Notes: Waiting for gateway decision",
+        "source_file": "sample_tasks.csv"
+      },
+      {
+        "person": "Priya",
+        "task": "Admin dashboard",
+        "evidence": "Task: Admin dashboard | Owner: Priya | Due Date: 2026-11-15 | Status: Not Started | Notes: Requirements unclear",
+        "source_file": "sample_tasks.csv"
+      },
+      {
+        "person": "Kiran",
+        "task": "Testing and bug fixes",
+        "evidence": "Task: Testing and bug fixes | Owner: Kiran | Due Date: 2026-11-25 | Status: Not Started",
+        "source_file": "sample_tasks.csv"
+      },
+      {
+        "person": "Team lead",
+        "task": "Clarify admin dashboard requirements",
+        "evidence": "Clarify admin dashboard requirements | Team lead | 18 Oct 2026",
+        "source_file": "sample_meeting_notes.docx"
+      }
+    ]
+  },
+  "risk": {
+    "schedule_risks": [
+      {
+        "risk": "The admin dashboard may slip past the November deadline.",
+        "severity": "High",
+        "evidence": "There is a risk that the admin dashboard will slip past the November deadline.",
+        "why_it_matters": "A delay in the admin dashboard threatens the delivery of the first working version due on 30 November 2026.",
+        "source_file": "sample_progress.txt"
+      },
+      {
+        "risk": "Work may be delayed due to backend developer exams.",
+        "severity": "Medium",
+        "evidence": "The backend developer has exams in November, so work may be delayed.",
+        "why_it_matters": "Exams reduce development capacity, leading to schedule slippage for core deliverables.",
+        "source_file": "sample_proposal.pdf"
+      }
+    ],
+    "dependency_gaps": [
+      {
+        "gap": "Vendor approval from the college for the payment gateway is missing.",
+        "evidence": "We are blocked on the payment gateway because the college has not approved the vendor.",
+        "source_file": "sample_progress.txt"
+      },
+      {
+        "gap": "Admin dashboard requirements are not finalized.",
+        "evidence": "Task: Admin dashboard | Owner: Priya | Due Date: 2026-11-15 | Status: Not Started | Notes: Requirements unclear",
+        "source_file": "sample_tasks.csv"
+      }
+    ],
+    "delivery_challenges": [
+      {
+        "challenge": "The login module is behind schedule due to exams.",
+        "evidence": "The login module is still behind schedule. Anita has exams until 24 October.",
+        "source_file": "sample_progress.txt"
+      },
+      {
+        "challenge": "Payment gateway integration is currently blocked.",
+        "evidence": "Task: Payment gateway integration | Owner: Ravi | Due Date: 2026-11-05 | Status: Blocked | Notes: Waiting for gateway decision",
+        "source_file": "sample_tasks.csv"
+      }
+    ],
+    "delivery_forecast": {
+      "status": "At risk",
+      "reason": "Key tasks like the login module and payment gateway integration are already delayed or blocked. Furthermore, the admin dashboard faces unclear requirements and risks slipping past its November deadline."
+    }
+  },
+  "blockers": {
+    "pending_decisions": [
+      {
+        "decision": "Payment gateway decision",
+        "evidence": "The team agreed that the payment gateway decision must be finalised before the next sprint.",
+        "source_file": "sample_meeting_notes.docx"
+      }
+    ],
+    "unresolved_issues": [
+      {
+        "issue": "Requirements for the admin dashboard are unclear",
+        "evidence": "3. Requirements for the admin dashboard are still unclear.",
+        "source_file": "sample_proposal.pdf"
+      },
+      {
+        "issue": "Login module delay due to exams",
+        "evidence": "The backend developer reported that the login module is delayed because of exam preparation.",
+        "source_file": "sample_meeting_notes.docx"
+      }
+    ],
+    "blockers": [
+      {
+        "blocker": "The college has not approved the vendor",
+        "blocking_what": "Payment gateway",
+        "evidence": "We are blocked on the payment gateway because the college has not approved the vendor.",
+        "source_file": "sample_progress.txt"
+      }
+    ],
+    "action_items": [
+      {
+        "task": "Finalise payment gateway",
+        "owner": "Ravi",
+        "due_date": "20 Oct 2026",
+        "status": "Not mentioned",
+        "evidence": "Finalise payment gateway | Ravi | 20 Oct 2026",
+        "source_file": "sample_meeting_notes.docx"
+      },
+      {
+        "task": "Clarify admin dashboard requirements",
+        "owner": "Team lead",
+        "due_date": "18 Oct 2026",
+        "status": "Not mentioned",
+        "evidence": "Clarify admin dashboard requirements | Team lead | 18 Oct 2026",
+        "source_file": "sample_meeting_notes.docx"
+      },
+      {
+        "task": "Login module",
+        "owner": "Anita",
+        "due_date": "2026-10-25",
+        "status": "In Progress",
+        "evidence": "Task: Login module | Owner: Anita | Due Date: 2026-10-25 | Status: In Progress | Notes: Delayed due to exams",
+        "source_file": "sample_tasks.csv"
+      },
+      {
+        "task": "Event listing page",
+        "owner": "Ravi",
+        "due_date": "2026-10-30",
+        "status": "Not Started",
+        "evidence": "Task: Event listing page | Owner: Ravi | Due Date: 2026-10-30 | Status: Not Started",
+        "source_file": "sample_tasks.csv"
+      },
+      {
+        "task": "Payment gateway integration",
+        "owner": "Ravi",
+        "due_date": "2026-11-05",
+        "status": "Blocked",
+        "evidence": "Task: Payment gateway integration | Owner: Ravi | Due Date: 2026-11-05 | Status: Blocked | Notes: Waiting for gateway decision",
+        "source_file": "sample_tasks.csv"
+      },
+      {
+        "task": "Admin dashboard",
+        "owner": "Priya",
+        "due_date": "2026-11-15",
+        "status": "Not Started",
+        "evidence": "Task: Admin dashboard | Owner: Priya | Due Date: 2026-11-15 | Status: Not Started | Notes: Requirements unclear",
+        "source_file": "sample_tasks.csv"
+      },
+      {
+        "task": "Testing and bug fixes",
+        "owner": "Kiran",
+        "due_date": "2026-11-25",
+        "status": "Not Started",
+        "evidence": "Task: Testing and bug fixes | Owner: Kiran | Due Date: 2026-11-25 | Status: Not Started",
+        "source_file": "sample_tasks.csv"
+      }
+    ]
+  }
+}
